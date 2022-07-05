@@ -1,0 +1,826 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Travel and Tour</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initia-scale=1.0, maximum-scale=1">
+        <link rel="icon" type="image/icon" href="images/logo.jpg">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+    </head>
+    <body>
+        <!--navigation section start-->
+        <section class="navigation">
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                <div class="container-fluid">
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01"
+                        aria-controls="navbarTogglerDemo01"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <a href="#" class="navbar-brand">
+                            <img
+                                src="images/logo.jpg"
+                                alt="logo"
+                                width="70px;"
+                                height="70"
+                                class="rounded-pill bg-"
+                            >
+                            Travel and Tour
+                        </a>
+                        <div class="home">
+                            <ul class="navbar-nav me-auto mb-2 ">
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown mx-3">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                    >Company</a>
+                                    <ul class="dropdown-menu ">
+                                        <li>
+                                            <a class="dropdown-item" href="#">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Our Team</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Term & Condition</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown mx-3 ">
+                                    <a
+                                        class="nav-link dropdown-toggle"
+                                        href="#"
+                                        role="button"
+                                        data-bs-toggle="dropdown"
+                                    >Holiday</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">local Tour</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Nepal Tour Package</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Foreign Tour Package</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                                </li>
+                                <li class="nav-item mx-3">
+                                    <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+                                </li>
+                            </div>
+                        </ul>
+                    </div>
+                    
+                        <button class="btn btn-outline-success bg-success text-white" type="submit">Book Now</button>
+                    
+                </div>
+            </div>
+        </nav>
+        </section>
+        <!--navigation section end-->
+        <!--background section start-->
+        <section class="banner">
+            <div class="wrapper opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+                <div class="container pt-5">
+                    <h1 class="text-white">Ghandruk</h1>
+                    <strong class="text-white">
+                        Expolore around the World
+                        <span class="element" style="font-weight: 600"></span>
+                    </strong>
+                    <br>
+                    <br>
+                    <form>
+                        <div class="row no-gutters custom-search-input-2 version_3">
+                            <div class="col-lg-3">
+                                <select class="wide " style="width:200px;" name="duration_id">
+                                    <option selected disabled>Select Duration</option>
+                                    <option value="1">1 Days</option>
+                                    <option value="2">1 - 7 Days</option>
+                                    <option value="3">1 - 12 Days</option>
+                                    <option value="4">1 - 18 Days</option>
+                                    <option value="5">1 - 21 Days</option>
+                                    <option value="6">1 - 30 Days</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3">
+                                <select class="wide" style="width:200px;" name="season">
+                                    <option selected disabled>Season</option>
+                                    <option value="1">All Year</option>
+                                    <option value="2">Summer</option>
+                                    <option value="3">Autumn</option>
+                                    <option value="4">Spring</option>
+                                    <option value="5">Winter</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3">
+                                <select class="wide" style="width:200px;" name="country_id">
+                                    <option selected disabled>Select Country</option>
+                                    <option value="1">Nepal</option>
+                                    <option value="3">Indonesia</option>
+                                    <option value="4">Maldives</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-3">
+                                <input
+                                    type="submit"
+                                    class="btn btn-outline-success  bg-success text-white rounded-0"
+                                    value="Search"
+                                    style="width:100%; height: 100%;"
+                                >
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- background section end-->
+        <!--welcome section start-->
+        <section class="welcome">
+            <div class="container p-5 pb-0">
+                <div class="row align-items-center d-flex">
+                    <div class="text col-sm-6">
+                        <h1 style="font-size: 2rem ">Welcome to Travel and Tour</h1>
+                        <p style="text-align:justify">
+                            <span style="font-size:14px">
+                                Travel and Tour Welcomes to you the Himalayan Country of Nepal and Unique Country in the world. Himalayan Country of Nepal is 60 meters to 8,848 meters above from sea level which is highest peak in the world Mt. Everest. Unique Country in the world, Nepal has Deepest George in the world(Kaligandagi George) & Highest Lake in the world(Tilicho Lake) are located in Nepal.
+                            </span>
+                        </p>
+                        <p style="text-align:justify">
+                            <span style="font-size:14px">Namaste Nepal Travels is Travels and Adventure Company with Government Authorized legal Documents. Our team provides Travel, Tours in Nepal, Trekking in Nepal, Holiday Packages and Adventure expeditions in the Himalayan Country of Nepal. Namaste Nepal Travels Provide Tibet Tour, Bhutan Tour, & many more holiday package for different countries and destinations.  We established Namaste Nepal Travels & Tours, with the aim of allowing Excellence Services for Tours in Nepal, Trekking in Nepal, Himalayan Region, Culture of Nepal, Sight Seeing Tour, Jungle Safari Tour, Hiking, Rafting, Paragliding, Mountain Expedition and Untouched beauty of Nature in Nepal.</span>
+                        </p>
+                        <p style="text-align:justify">
+                            <span style="font-size:14px">For the Tours in Nepal, Trekkking in Nepal, Holidays and Air Ticketing, We offer and we are committed to making your time in Nepal special and unique experience with Namaste Nepal Travels. We will work with you to design a Tours, Trekking, Hiking, Expedition & Holiday Packages that includes everything you want to see and do. Please sent us an E-mail, we will creat your Tour in Nepal, Trekking in Nepal, Sight Seeing in Heritage Site and many more Trip will be your unforgatable trip in your Life.</span>
+                        </p>
+                    </div>
+                    <div class=" image col-sm-6">
+                        <img src="images/travel.jpg" weight="400px" height="500px">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--welcome section end-->
+        <!--recommended section start-->
+        <section class="recommended">
+            <div class="container-fluid container-custom margin_30">
+                <div class="main_title_2">
+                    <span>
+                        <em></em>
+                    </span>
+                    <h2 class="text-center mb-2">Recommended Trekking</h2>
+                </div>
+                <div class="recommend">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12" >
+                                <div class="card">
+                                    <img src="images/abc.jpg" height="200px" class="card-img-top">
+                                        <div class="card-body ">
+                                            <h5 class=" card-title text-center">Annapurna Base Camp</h5>
+                                                <ul>
+                                                    <li>
+                                                        <i class="fa-solid fa-clock" style="color:darkgreen "></i>
+                                                        11 Days
+                                                    </li>
+                                                    <li>
+                                                        <i class="fas fa-user-circle" style="color:darkgreen "></i>
+                                                        +
+                                                    </li>
+                                                    <li>
+                                                        <i class="fas fa-map" style="color:darkgreen "></i>
+                                                    </li>
+                                                </ul>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card">
+                                    <img src="images/EBC.jpg" height="200px" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center ">Everest Base Camp</h5>
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-solid fa-clock" style="color:darkgreen "></i>
+                                                    11 Days
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-user-circle" style="color:darkgreen "></i>
+                                                    +
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-map" style="color:darkgreen "></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>                           
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card">
+                                    <img src="images/rara.jpg" height="200px" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center ">Rara</h5>
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-solid fa-clock" style="color:darkgreen "></i>
+                                                    11 Days
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-user-circle" style="color:darkgreen "></i>
+                                                    +
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-map" style="color:darkgreen "></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card">
+                                    <img src="images/treck.jpg" height="200px" class="card-img-top">
+                                        <div class="card-body">
+                                            <h5 class="card-title text-center ">Jomsom</h5>
+                                            <ul>
+                                                <li>
+                                                    <i class="fa-solid fa-clock" style="color:darkgreen "></i>
+                                                    11 Days
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-user-circle" style="color:darkgreen "></i>
+                                                    +
+                                                </li>
+                                                <li>
+                                                    <i class="fas fa-map" style="color:darkgreen "></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--section end-->
+        <!-- Specialities section start-->
+        <section class="Specialities">
+            <div class="container-fluid container-custom margin_30">
+                <div class="main_title_2">
+                    <span>
+                        <em></em>
+                    </span>
+                    <h2 class="text-center">Our Specialities</h2>
+                </div>
+                <div class="special">
+                    <div class="container">
+                        <div class="row mt-3">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card">
+                                    <img src="images/indonesia.jpg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title ">Indonesia</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class=" view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card">
+                                    <img src="images/Kashmir.jpg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title ">Kashmir</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class="  view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="card">
+                                    <img src="images/dubai.jpg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center ">
+                                        <h3 class="card-title ">Dubai</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class="view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                                <div class="card">
+                                    <img src="images/ladakh.jpg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title ">Ladakh</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class="view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                                <div class="card">
+                                    <img src="images/london.jpg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title  ">London</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class=" view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                                <div class="card">
+                                    <img src="images/maldives.jpg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title  ">Maldives</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class="  view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                                <div class="card">
+                                    <img src="images/switzerland.jpeg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title ">Switzerland</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class="view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 mt-3">
+                                <div class="card">
+                                    <img src="images/thailand.jpg" height="200px" class="card-img-top">
+                                    <div class="card-body text-center">
+                                        <h3 class="card-title  ">Thailand</h3>
+                                        <h6>NRP:7000-/</h6>
+                                        <a href="https://en.wikipedia.org/wiki/Indonesia" class="view_detail btn btn-primary"> View Detail</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Specialities section end-->
+        <!--selling section start-->
+        <section class="selling">
+            <div class="container container-custom margin_30_95">
+                <section class="add_bottom_45">
+                    <div class="main_title_2">
+                        <span>
+                            <em></em>
+                        </span>
+                        <h2>Best Selling Trips</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <a href="https://raisetravel.com.np/category/tour/16" class="grid_item">
+                                <figure>
+                                    <div class="home">
+                                        <strong>1 Days</strong>
+                                    </div>
+                                    <img src="images/chandragiri.jpg">
+                                    <div class="info">
+                                        <h3>Chandragiri</h3>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <a href="https://raisetravel.com.np/category/tour/21" class="grid_item">
+                                <figure>
+                                    <div class="home">
+                                        <strong>1 Days</strong>
+                                    </div>
+                                    <img src="images/chitwan.jpg">
+                                    <div class="info">
+                                        <h3>Chitwan</h3>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <a href="https://raisetravel.com.np/category/tour/23" class="grid_item">
+                                <figure>
+                                    <div class="home">
+                                        <strong>1 Days</strong>
+                                    </div>
+                                    <img src="images/devis.jpg">
+                                    <div class="info">
+                                        <h3>Devi's fall</h3>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <a href="https://raisetravel.com.np/category/tour/24" class="grid_item">
+                                <figure>
+                                    <div class="home">
+                                        <strong>1 Days</strong>
+                                    </div>
+                                    <img src="images/ilam.jpg">
+                                    <div class="info">
+                                        <h3>Ilam</h3>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <a href="https://raisetravel.com.np/category/tour/25" class="grid_item">
+                                <figure>
+                                    <div class="home">
+                                        <strong>1 Days</strong>
+                                    </div>
+                                    <img src="images/markhu.jpeg">
+                                    <div class="info">
+                                        <h3>Markhu</h3>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <a href="https://raisetravel.com.np/category/tour/26" class="grid_item">
+                                <figure>
+                                    <div class="home">
+                                        <strong>1 Days</strong>
+                                    </div>
+                                    <img src="images/sandakpur.jpg">
+                                    <div class="info">
+                                        <h3>Sandakpur</h3>
+                                    </div>
+                                </figure>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!--selling section end-->
+        <!--choose section start-->
+        <section class="choose">
+            <div class="wrapper opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.4)">
+                <div class="container-fluid container-custom margin_30 pt-5">
+                    <div class="main_title_2">
+                        <span>
+                            <em></em>
+                        </span>
+                        <h2 class="text-white text-center">Why Choose Us</h2>
+                    </div>
+                </div>
+                <div class="container p-5">
+                    <div class="row pb-5">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="icon_detail text-secondary bg-light p-3 text-center">
+                                <span class="emoji">&#9989;</span>
+                                <br>
+                                <br>
+                                <h5 class="text-center">Fast Booking</h5>
+                                <p>We Provide fast booking for various tour packages in Nepal and foreign countries.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="icon_detail text-secondary bg-light p-3 text-center">
+                                <span class="emoji">🖤</span>
+                                <br>
+                                <br>
+                                <h5 class="text-center">Support Team</h5>
+                                <p>We Provide fast booking for various tour packages in Nepal and foreign countries.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="icon_detail text-secondary bg-light p-3 text-center">
+                                <span class="emoji">✈</span>
+                                <br>
+                                <br>
+                                <h5 class="text-center">Unforgettable Experience</h5>
+                                <p>We Provide fast booking for various tour packages in Nepal and foreign countries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--choose section end-->
+        <!-- activities section start-->
+        <section class="activities">
+            
+                <div class="container">
+                    <div class="main_title_2">
+                        <span>
+                            <em></em>
+                        </span>
+                        <h3>Our Recent Activities</h3>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-6 col-md-6 col-sm-12 ">
+                            <div class="row bg-light ">
+                                <div class="col-sm-6 " style="float: left;">
+                                    <figure>
+                                        <strong>19 Sept</strong>
+                                        <img src="images/chitwan.jpg " height="200px" width="100%">
+                                    </figure>
+                                </div>
+                                <div class="col-sm-6 ">
+                                    <em class="text-secondary">
+                                        Nepal Tour-04.09.2018
+                                    </em>
+                                    <h4>Chitwan</h4>
+                                    <p>
+                                        raise travel and tours took our prestigious guest to chitwan to explore the beauty of nepal...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12  ">
+                            <div class="row bg-light">
+                                <div class="col-sm-6 ">
+                                    <figure>
+                                        <strong>04 Sept</strong>
+                                        <img src="images/mustang.jpg " height="200px" width="100%">
+                                    </figure>
+                                </div>
+                                <div class="col-sm-6  ">
+                                    <em class="text-secondary">
+                                        Nepal Tour-04.09.2018
+                                    </em>
+                                    <h4>Ghandruk</h4>
+                                    <p>
+                                        raise travel and tours took our prestigious guest to ghandruk to explore the beauty of nepal...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 ">
+                            <div class="row bg-light ">
+                                <div class="col-sm-6 ">
+                                    <figure>
+                                        <strong>04 Sept</strong>
+                                        <img src="images/nb.jpg" height="200px" width="100%">
+                                    </figure>
+                                </div>
+                                <div class="col-sm-6  ">
+                                    <em class="text-secondary">
+                                        Nepal Tour-19.09.2018
+                                    </em>
+                                    <h4>Namche Bazaar</h4>
+                                    <p>
+                                        We have arranged hiking for our Nepali guests team on September and the team observed the beauty of heavenly Nepal..
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 ">
+                            <div class="row bg-light ">
+                                <div class="col-sm-6 ">
+                                    <figure>
+                                        <strong>02 Sept</strong>
+                                        <img src="images/pokhara.jpg" height="200px" width="100%">
+                                    </figure>
+                                </div>
+                                <div class="col-sm-6 ">
+                                    <em class="text-secondary">
+                                        Nepal Tour-02.09.2018
+                                    </em>
+                                    <h4> Pokhara</h4>
+                                    <p>
+                                        We have a great time with our guests in Pokhara Tour. we have done a lot of fun and enjoy with this guys..
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </section>
+        <!-- activities section end-->
+        <!--testimonial section start-->
+        <section class="testimonial">
+            <div class="container">
+                <div class="main_title_2">
+                    <span>
+                        <em></em>
+                    </span>
+                    <h3 class="text-white text-center">Our Testimonial</h3>
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6 col-sm-12 ">
+                            <div class="item">
+                                <div class="comment_detail ">
+                                    <h2>
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </h2>
+                                    <p class="">I want to thank Raise Travel and Tour for the travel arrangements made for me.The trip was amazing! The beauty of Nepal is beyond words.It was truly an experiene of a lifetime! Thank you again!</p>
+                                    <div class="team">
+                                        <div class="team-img ">
+                                            <img src="images/prakriti.jpg" height="150px" width="50%">
+                                            <h6>
+                                                <em>Prakriti Rai</em>
+                                            </h6>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 ">
+                            <div class="item">
+                                <div class="comment_detail ">
+                                    <h2>
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </h2>
+                                    <p class="">I am  back from my wonderful trip and all thanks to Raise Travel and Tour. Planning and bookings were well done as expected.The hotels and tours were very comfortable, especially with my group. Thank You!</p>
+                                    <div class="team">
+                                        <div class="team-img ">
+                                            <img src="images/sneha.jpg" height="150px" width="50%">
+                                            <h6>
+                                                <em>Sneha Sapkota</em>
+                                            </h6>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 ">
+                            <div class="item">
+                                <div class="comment_detail ">
+                                    <h2>
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </h2>
+                                    <p class="">Thank you very much for all your assistance for our sucessful trip.My family and I we can say that we have received a great service from your team. Will contact you again for my future trips.</p>
+                                    <div class="team">
+                                        <div class="team-img ">
+                                            <img src="images/aakash.jpg" height="150px" width="50%">
+                                            <h6>
+                                                <em>Aakash Khadka</em>
+                                            </h6>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 ">
+                            <div class="item">
+                                <div class="comment_detail ">
+                                    <h2>
+                                        <i class="fa-solid fa-quote-left"></i>
+                                    </h2>
+                                    <p class="">I found the service and response of this travel agency to be excellent. Easily 5-stars. My emails were promptly responded to, and everyone showed up when they were supposed to. Thanks very much Travel and Tours.</p>
+                                    <div class="team">
+                                        <div class="team-img ">
+                                            <img src="images/una.jpg" height="150px" width="50%">
+                                            <h6>
+                                                <em>Yuna Sapkota</em>
+                                            </h6>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--testimonial section end-->
+        <!--footer section start-->
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5 ">
+                        <div class="info">
+                            <img src="images/logo.jpg" width="170px" height="135px">
+                            <div class="about">
+                                <p>Travel and Tour understands that the people you spend your vacation with make all the difference. We have specialized in delivering escorted tours in Nepal.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 pt-5 ">
+                        <div class="camp">
+                            <h5 class="px-4">Latest Post</h5>
+                            <ul class="px-4">
+                                <li>
+                                    <a href="https://raisetravel.com.np/category/tour/16">Ghandruk</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/category/tour/21">Pokhara</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/category/tour/23">Hiking</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/category/tour/24">Mountain</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/category/tour/25">Bandipur tours</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 pt-5">
+                        <div class="useful">
+                            <h5 class="px-4">Quick links</h5>
+                            <ul class="px-4">
+                                <li>
+                                    <a href="https://raisetravel.com.np/company-profile">Company Profile</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/about-us">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/contact-us">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/terms-conditions">Terms & Conditions</a>
+                                </li>
+                                <li>
+                                    <a href="https://raisetravel.com.np/terms-conditions">Privacy & Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
+                        <div class="opening">
+                            <h5 class="px-3">Contact Us</h5>
+                            <ul class="px-3">
+                                <li>
+                                    <i class="fa-solid fa-envelope mx-1" style="color:darkgreen "></i>
+                                    travelandtour@gmail.com
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-phone mx-1" style="color:darkgreen"></i>
+                                    021456789,021567893
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-earth-americas mx-1" style="color:darkgreen"></i>
+                                    www.travelandtour.com.np
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-map mx-1" style="color:darkgreen"></i>
+                                    Mid Baneshwor,Kathmandu,Nepal
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/">
+                                <i class="fa-brands fa-facebook mx-3"></i>
+                            </a>
+                            <a href="https://www.facebook.com/">
+                                <i class="fa-brands fa-twitter mx-3"></i>
+                            </a>
+                            <a href="https://www.facebook.com/">
+                                <i class="fa-brands fa-instagram-square mx-3"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer section end-->
+        <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+            integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+    </body>
+    </html>
